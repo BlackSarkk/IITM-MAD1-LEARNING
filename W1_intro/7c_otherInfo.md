@@ -1,0 +1,4 @@
+- HTTP1.0 is not used not these days
+- HTTP1.1 is the one people use nowdays
+- HTTP2.0 has nothing to do with web2.0, this is a different varient of protocol that allows different things, like it allows pipeline connections etc. It is used where things require continuous connectivity and require large amount of data
+- HTTP3.0 do exists
