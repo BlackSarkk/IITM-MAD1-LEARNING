@@ -1,0 +1,35 @@
+
+P{
+	font-size: 10px;
+}
+
+.name_para{
+	font-size: 30px;
+	color: lightskyblue;
+}
+
+#personal > p{
+	font-size: 20px;
+}
+
+form input{
+	background-color: yellow;
+	border-radius: 4px;
+	padding: 2px;
+}	
+
+
+form > input:hover{
+	background-color: rgb(255, 166, 166);
+}
+
+input[x="y"]{
+	background-color: pink;
+}
+
+
+form p::first-letter{		/* Pseudo element selector */
+	color: red;
+}
+
+
