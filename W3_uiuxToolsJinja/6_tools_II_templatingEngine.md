@@ -17,7 +17,7 @@
 
 
 
-- Example code:
+- Example pyHTML code:
 
 ```py
 import pyhtml as h
@@ -66,7 +66,7 @@ def f_table(ctx):
     - Mako
     - ... - just pick one and go with it
 
-
+<!-- ! Templating using String library -->
 ```py
 from string import Template
 
@@ -82,6 +82,7 @@ print(s)
 - Remember: Templates can generate any output, not just HTML
 - Jinja is a templating engine
 
+<!-- ! Templating using jinja2 library -->
 ```py
 from jinja2 import Template
 t = Template("Hello {{ something }}!")
